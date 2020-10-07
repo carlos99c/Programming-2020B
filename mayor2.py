@@ -1,3 +1,4 @@
+
 """ se requiere de un programa que solicite
 al usuario por consola y determine cual de los dos 
 es el mayor"""
@@ -7,12 +8,15 @@ es el mayor"""
 
 num1=0
 num2=0
-print ("programa para calcular el mayor numero")
-print ("digita tu primer numero")
-num1= int (input())
-print ("diguite su segundo numero ")
-num2= int (input())
-if num1>num2 :
-    print ("el primer numero es mayor")
+num1 = int (input("dame tu primer numero "))
+num2 =int(input("dame tu segundo numero "))
+if num1 > 0 and num2 > 0 :
+    if num1 == num2 :
+        print ("los numero ingresados son iguales ")
+    else :    
+        if num1>num2:
+            print ("el primer numero es mayor ")
+        else:
+            print ("el segundo numero  es mayor ")   
 else :
-    print ("el segundo numero es mayor")    
+    print("no se aceptan valores negativos")    
