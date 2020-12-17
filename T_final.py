@@ -54,3 +54,14 @@ def menu():
         else:
             print("que tengas buena suerte chao")    
 menu()
+"""lista_A=["2,4,6,8,10,8","1,3,7,9,10"]
+lista_B=["1,2,3,4,5,6","1,2,3,4,5,6"]
+lista_C=["5,10,15,20,25,30","1,14,21,28,35"]
+print(lista_A,"\n",lista_B,"\n,",lista_C)
+def lista1():
+    a=(lista_A[0])
+    b=(lista_A[1])
+    print(a)
+    print(lista_A.count([a]))
+    
+lista1()"""
